@@ -1,0 +1,122 @@
+
+
+<div class="banner"> 
+				<a href="./Index.html"> 
+					<img src="Destacados/logo.jpg.png" alt="logo">
+					</a>
+				</div>
+
+
+
+
+<footer class="footer">
+    <div class="Informacion">
+        <ul>
+           <li> <h2>No tenemos LOCAL</h2>
+           </li>
+           <li><a href="Tel:1522562160"> <h2>Telefono </h2></a> </li>
+           <li><a href="Mailto:Hola@gmail.com"> <h2>Escribinos</h2></a></li>
+        </ul>
+    </div>
+    <div class="Mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52599.34282328074!2d-58.615680038823314!3d-34.51659910321997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba4729575293%3A0x96c53f33ed00b85c!2sJos%C3%A9%20Le%C3%B3n%20Su%C3%A1rez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1621441024587!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+</footer>
+  <nav class="Info">
+    
+    <div class="Redes">
+        <li>
+            <a href="">Facebook</a>
+        </li>
+        <li>
+            <a href="">Instagram</a>
+        </li>
+        <li>
+            <a href="">Email</a>
+        </li>
+        <li>
+            <a href="">Telefono</a>
+        </li>
+    
+    </div>
+
+
+
+</nav>
+
+
+
+
+<main class="container">
+    <div class="row">
+        <article class="col-sm-3">
+    <img src="Destacados/Destacado1.jpg" alt="Destacado1">
+    <p> Saco con botones</p>
+    <p>$2500</p>
+    <button class="btn btn-primary" onclick="agregarProducto('Jeans Tiro alto' , 2500)">Agregar al carrito</button>
+    </article>
+    
+    <article class="col-sm-3">
+    <img src="Destacados/Destacado2.jpg" alt="Destacado2">
+    <p>Saco de hilo</p>
+    <p>$3500</p>
+    <button class="btn btn-primary" onclick="agregarProducto('Jeans Tiro alto', 3500)">Agregar al carrito</button>
+    </article>
+
+    <article class="col-sm-3">
+        <img src="Destacados/Destacado3.jpg" alt="Destacado3">
+        <p>Remera black and white</p>
+        <p>$3500</p>
+        <button class="btn btn-primary" onclick="agregarProducto('Jeans Tiro alto', 3500)">Agregar al carrito</button>
+        </article>
+       
+    
+        <article class="col-sm-3">
+            <img src="Destacados/Destacado4.jpg" alt="Destacado3">
+            <p>Swetter Globo</p>
+            <p>$3500</p>
+            <button class="btn btn-primary" onclick="agregarProducto('Jeans Tiro alto', 3500)">Agregar al carrito</button>
+            </article>
+    
+     
+    </div>
+    </main>
+    <div class="row-cols-1">
+        <button class="btn btn-secondary" style="margin-top: 15px;" onclick="mostrarProductos()">
+            <span id="total-productos"></span>
+            Ver resumen del carrito
+    
+        </button>
+    </div>
+
+
+
+.Info{
+    padding: 1px;
+    background-color: black;
+}
+
+.Info h4{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.Contactanos h7{
+    text-decoration: none;
+    color: white;
+}
+
+.Contactanos ul{
+    color: white;
+    text-align: end;
+}
+
+.Medios{
+    display: flex;
+    display: block;
+    color: white;
+    text-align: center;
+
+}

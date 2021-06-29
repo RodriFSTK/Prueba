@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+	
+}
+.menu h1{
+	color: gray;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: pink;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(102, 31, 168);;
+	padding: 20px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+#dropdownMenu2{
+	background-color: pink;
+	color:rgb(102, 31, 168);
+}
+.dropdown-menu{
+background-color: pink;
+}
+.dropdown-menu h10{
+color: rgb(102, 31, 168);
+}
+
+.Carrusel{
+    width: 75%;
+    margin-top: 1%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.Destacados{
+	width: 100%;
+	background-color: pink;
+	color: black;
+	text-align: center;
+}
+
+.bigicon {
+    font-size: 35px;
+}
+
+.contenedor{
+	background-color: black;
+	color: white;
+	width: 70%;
+	margin-left: 15%;
+	
+}
+
+.Titulo{
+	text-align: center;
+	background-color: black;
+	color: gray;
+	margin-top: 2%;
+}
+
